@@ -29,7 +29,6 @@
   height: 8rem;
   width: auto;
   margin-left: 1.5rem;
-  
 }
 
 .SelectPokeBut {
@@ -41,7 +40,6 @@
   font-size: large;
   font-weight: bold;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.911);
-
 }
 
 .PokemonDisplays {
@@ -55,21 +53,26 @@
   width: auto;
 }
 
-.SelectPokeBut:hover, .ActionButtons:hover, .TryagainButton:hover {
+.SelectPokeBut:hover,
+.ActionButtons:hover,
+.TryagainButton:hover {
   background-color: #5a9d9d; /* Lighter shade for hover */
   cursor: pointer;
 }
 
-.SelectPokeBut:active, .ActionButtons:active, .TryagainButton:active {
+.SelectPokeBut:active,
+.ActionButtons:active,
+.TryagainButton:active {
   transform: scale(0.98); /* Slightly smaller on click */
   background-color: #3c6e6e; /* Darker shade for click */
 }
 
 /* Improving readability and interactivity for buttons */
-.SelectPokeBut, .ActionButtons, .TryagainButton {
+.SelectPokeBut,
+.ActionButtons,
+.TryagainButton {
   transition: background-color 0.3s, transform 0.2s;
 }
-
 
 .hp-bar {
   transition: width 1s ease;
@@ -83,12 +86,12 @@
   width: auto;
 }
 
-.pokemon-menuSub{
+.pokemon-menuSub {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 0 5rem
+  margin: 0 5rem;
 }
 
 .instructions {
@@ -101,10 +104,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
-
 }
-.pmenue{
+.pmenue {
   font-size: 2rem;
 }
 
@@ -129,19 +130,18 @@
   justify-content: center;
   padding-left: 5rem;
   padding-right: 5rem;
- 
 }
 
 .LogicDisplay {
- display: flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   background-color: #dddddd3b;
   padding: 1rem;
-  margin-left:  5rem;
-  margin-right:  5rem;
-margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 10rem;
   border: solid 1px black;
 }
 
@@ -153,7 +153,7 @@ margin-top: 10rem;
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
-  margin: 0 1rem 0 0; 
+  margin: 0 1rem 0 0;
 }
 
 .ActionButtons {
@@ -165,15 +165,11 @@ margin-top: 10rem;
 }
 .BattleMessage {
   flex: 1;
-  text-align: center; 
+  text-align: center;
   font-size: 3rem;
 }
 
-
-
 /* ------------------------------------------------------------------------- */
-
-
 
 .TryagainButton {
   background: none;
@@ -219,8 +215,6 @@ margin-top: 10rem;
   border-bottom: solid 5px black;
 }
 
-
-
 /* Style for the name input field */
 .nameInput {
   padding: 10px 15px;
@@ -236,7 +230,8 @@ margin-top: 10rem;
 
 .nameInput:focus {
   border-color: #5a9d9d; /* Slightly darker shade for focus */
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 5px rgba(90, 157, 157, 0.5); /* More prominent shadow when focused */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2),
+    0 0 5px rgba(90, 157, 157, 0.5); /* More prominent shadow when focused */
   outline: none; /* Remove default outline */
 }
 
@@ -260,11 +255,6 @@ margin-top: 10rem;
 .submitScoreBtn:active {
   transform: scale(0.98); /* Slight press effect */
 }
-
-
-
-
-
 
 /* ------------------------------------------------------------------------- */
 
@@ -301,7 +291,7 @@ margin-top: 10rem;
 }
 
 .attack-animation {
-  margin-left: 50px; /
+  margin-left: 50px;
 }
 
 @keyframes shake {
@@ -324,12 +314,12 @@ margin-top: 10rem;
 }
 
 .pokemon-attacking {
-  animation: shake 0.8s; 
-  animation-iteration-count: 1; 
+  animation: shake 0.8s;
+  animation-iteration-count: 1;
 }
 /* ------------------------------------------------------------------------- */
 
-.LoadingDisplay{
+.LoadingDisplay {
   display: flex;
   flex-direction: column;
   align-items: center;
